@@ -1,0 +1,12 @@
+package day0;
+
+/**
+ * \* Author: Prekrasnov Sergei
+ * \
+ */
+
+public class Task5 {
+    public static void main(String[] args) {
+        for (int year = 1980; year < 2021; year += 4) System.out.printf("Олимпиада %d года \n", year);
+    }
+}
